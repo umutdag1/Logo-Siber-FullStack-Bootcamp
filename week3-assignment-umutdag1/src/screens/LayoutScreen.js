@@ -20,10 +20,13 @@ export default function LayoutScreen(props) {
 
   const Tab = createBottomTabNavigator(); // Creating Tab Screen Navigator
 
+  // Initiliaze outerParams of State Data in Functional Programming
+  // This is Used For Keeping FullName of Logged-In User's 
   const [outerParams, setOuterParams] = useState(null);
 
   useEffect(() => {
-    if (params?.fullName) {
+    if (params?.fullName) { // If fullName of params is Neither Null or Undefined, 
+      // Then Continuing to Keep User's FullName Obtained From FirebaseStore Runned in Login Screen
       setOuterParams(prev => ({ ...prev, fullName: params.fullName }));
     }
   }, [params.fullName])

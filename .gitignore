@@ -1,0 +1,24 @@
+/week1-assignment-umutdag1/.git
+/week2-assignment-umutdag1/.git
+/week3-assignment-umutdag1/.git
+/week1-assignment-umutdag1/.gitignore
+/week2-assignment-umutdag1/.gitignore
+/week3-assignment-umutdag1/.gitignore
+/week1-assignment-umutdag1/node_modules
+/week2-assignment-umutdag1/node_modules
+/week3-assignment-umutdag1/node_modules
+
+# Expo
+/week3-assignment-umutdag1/.expo/
+/week3-assignment-umutdag1/dist/
+/week3-assignment-umutdag1/npm-debug.*
+/week3-assignment-umutdag1/*.jks
+/week3-assignment-umutdag1/*.p8
+/week3-assignment-umutdag1/*.p12
+/week3-assignment-umutdag1/*.key
+/week3-assignment-umutdag1/*.mobileprovision
+/week3-assignment-umutdag1/*.orig.*
+/week3-assignment-umutdag1/web-build/
+
+# macOS
+/week3-assignment-umutdag1/.DS_Store

@@ -79,6 +79,7 @@ export default function MenuScreen(props) {
                                 method: "GET"
                             }
                         },
+                        merge: true
                     })}
                 >
                     <Text style={styles.buttonText}>USERS LIST</Text>

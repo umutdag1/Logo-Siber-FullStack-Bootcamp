@@ -104,7 +104,7 @@ export default function DataScreen(props) {
             {
                 Object.keys(data).map((key, index) => {
                     return (
-                        <View style={{ flexDirection: "row" }} key={index}>
+                        <View style={{ flexDirection: "row" }} key={`${data.id}_${index}`}>
                             <Text style={styles.keyText}>{key}</Text>
                             <Text style={styles.keyText}>:</Text>
                             <Text style={styles.dataText}>

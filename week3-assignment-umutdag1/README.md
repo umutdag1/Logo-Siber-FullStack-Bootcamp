@@ -38,8 +38,13 @@ npm start
 [Live Demo](https://expo.dev/@umutdag1/week3-assignment-umutdag1)
 
 ## Notes (Notlar)
-- It's not tested on any IOS devices so view can be different. Otherwise, you can on both Android and Web. (IOS işletim sistemli telefonlar üzerinde denenmedi, bunun dışında android ve web üzerinde çalışmaktadır.)
-- In "Menu" Screen, When you click "Comments" button, it'll come with a huge data to be load so your phone may be frozen. The others, just less than 2-3 seconds, all data will be seen on your screen even if an error with no data text may first be shown on your screen. So, just wait until data is rendered on your screen. The error will be disappeared. ("Menu" ekranında, "Comments" butonunu tıklanınca, büyük veri yoğunlğu yüzünden telefonunuz donabilir. Onun dışında, ilk başta bir hata çıktısı gözükse bile, diğer butonlara tıkladıktan 2-3 saniye içerisinde, verilerin hepsi ekranınızda gözükecektir. Bu yüzden veriler yüklenene kadar sadece sabırlı olun. Hatta ekranı yok olacaktır.) 
+- It's not tested on any IOS devices so view can be different. Otherwise, you can test on both Android and Web. 
+
+- (IOS işletim sistemli telefonlar üzerinde denenmedi, bunun dışında android ve web üzerinde çalışmaktadır.)
+
+- In "Menu" Screen, When you click "Comments" button, it'll come with a huge data to be load so your phone may be frozen. Otherwise, just less than 2-3 seconds, all data will be seen on your screen even if an error with no data text may first be shown on your screen. So, just wait until data is rendered on your screen. The error will be disappeared. 
+
+- ("Menu" ekranında, "Comments" butonunu tıklanınca, büyük veri yoğunlğu yüzünden telefonunuz donabilir. Onun dışında, ilk başta bir hata çıktısı gözükse bile, diğer butonlara tıkladıktan 2-3 saniye içerisinde, verilerin hepsi ekranınızda gözükecektir. Bu yüzden veriler yüklenene kadar sadece sabırlı olun. Hatta ekranı yok olacaktır.) 
 
 ## License
 [MIT](https://github.com/171-Logo-Siber-FullStack-Bootcamp/week3-assignment-umutdag1/blob/main/LICENSE)

@@ -21,7 +21,7 @@ git clone https://github.com/umutdag1/logo-siber-fullstack-bootcamp-homeworks
 ```bash
 cd logo-siber-fullstack-bootcamp-homeworks
 cd week4-search-assignment-umutdag1
-Run Live Server
+REM Run With Live Server
 ```
 
 ## ScreenRecord (Ekran Kaydı)

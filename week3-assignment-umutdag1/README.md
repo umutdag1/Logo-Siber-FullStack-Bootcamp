@@ -26,6 +26,7 @@ git clone https://github.com/umutdag1/logo-siber-fullstack-bootcamp-homeworks
 ## Usage (Kullanım)
 
 ```bash
+cd logo-siber-fullstack-bootcamp-homeworks
 cd week3-assignment-umutdag1
 npm i
 npm start

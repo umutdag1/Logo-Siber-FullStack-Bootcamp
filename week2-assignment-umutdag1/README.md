@@ -16,6 +16,8 @@ Use the git clone command to clone the project to local.
 
 ```bash
 git clone https://github.com/171-Logo-Siber-FullStack-Bootcamp/week2-assignment-umutdag1
+
+git clone https://github.com/umutdag1/logo-siber-fullstack-bootcamp-homeworks
 ```
 
 ## Usage (Kullanım)

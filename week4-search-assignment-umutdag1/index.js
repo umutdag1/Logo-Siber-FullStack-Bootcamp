@@ -1,7 +1,12 @@
 const vueApp = new Vue({
     data: {
-        list: ["Element 1", "Element 2", "Element 3", "Element 4", "Element 5"],
-        logs: []
+        //list: ["Element 1", "Element 2", "Element 3", "Element 4", "Element 5"],
+        list: [],
+        logs: [],
+        request : {
+            url : "https://swapi.dev/api/people/?format=json",
+            receive : "name"
+        }
     },
     methods: {
         removeOrRecoverElem(elemIndex) {
@@ -27,7 +32,10 @@ const vueApp = new Vue({
             return this.logs.length == 0;
         }
     },
-    created() {
+    async created() {
+        const jsonData = await fetch(this.request.url);
+        const data = await jsonData.json();
+        this.list = data.results.map(data => data[this.request.receive]);
         this.list = this.list.map(listElem => ({ elem: listElem, isRemoved: false }));
     }
 })

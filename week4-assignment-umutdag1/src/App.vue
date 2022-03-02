@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import TheSidebar from "./components/TheSidebar.vue";
-import TheNavbar from "./components/TheNavbar.vue";
-import TheContent from "./components/TheContent.vue";
+import TheSidebar from "./components/master/TheSidebar.vue";
+import TheNavbar from "./components/master/TheNavbar.vue";
+import TheContent from "./components/master/TheContent.vue";
 
 export default {
   name: "App",

@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import NavbarTopbarSearch from "./NavbarTopbarSearch.vue";
-import NavbarTopbarSidebarToggler from "./NavbarTopbarSidebarToggler.vue";
-import NavbarTopbarNav from "./NavbarTopbarNav.vue";
+import NavbarTopbarSearch from "../navbar/topbar/NavbarTopbarSearch.vue";
+import NavbarTopbarSidebarToggler from "../navbar/topbar/NavbarTopbarSidebarToggler.vue";
+import NavbarTopbarNav from "../navbar/topbar/NavbarTopbarNav.vue";
 
 export default {
     name: "TheNavbar",

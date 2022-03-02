@@ -14,19 +14,27 @@
       >
       <img
         class="img-profile rounded-circle"
-        src="../assets/img/undraw_profile.svg"
+        :src="`${BASE_URL}/assets/img/undraw_profile.svg`"
       />
     </a>
     <!-- Dropdown - User Information -->
-    <NavbarNavItemUserInformationDropdown/>
+    <NavbarNavItemUserInformationDropdown />
   </li>
 </template>
 
 <script>
 import NavbarNavItemUserInformationDropdown from "./NavbarNavItemUserInformationDropdown.vue";
+
 export default {
-    name: "NavbarNavItemUserInformation",
-    components: { NavbarNavItemUserInformationDropdown }
+  name: "NavbarNavItemUserInformation",
+  data() {
+    return {
+      BASE_URL: "./",
+    };
+  },
+  components: {
+    NavbarNavItemUserInformationDropdown,
+  },
 };
 </script>
 

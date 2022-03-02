@@ -2,7 +2,7 @@
   <div class="sidebar-card d-none d-lg-flex">
     <img
       class="sidebar-card-illustration mb-2"
-      src="../assets/img/undraw_rocket.svg"
+      :src="`${BASE_URL}/assets/img/undraw_rocket.svg`"
       alt="..."
     />
     <p class="text-center mb-2">
@@ -20,6 +20,11 @@
 <script>
 export default {
   name: "SidebarMessage",
+  data() {
+    return {
+      BASE_URL : "./"
+    };
+  }
 };
 </script>
 

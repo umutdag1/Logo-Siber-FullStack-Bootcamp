@@ -18,13 +18,13 @@
 
 <script>
 /* Out Order */
-import NavbarNavDivider from "./NavbarNavDivider.vue";
+import NavbarNavDivider from "./nav/NavbarNavDivider.vue";
 
 /* In Order */
-import NavbarNavItemSearchDropdown from "./NavbarNavItemSearchDropdown.vue";
-import NavbarNavItemAlerts from "./NavbarNavItemAlerts.vue";
-import NavbarNavItemMessages from "./NavbarNavItemMessages.vue";
-import NavbarNavItemUserInformation from "./NavbarNavItemUserInformation.vue";
+import NavbarNavItemSearchDropdown from "./nav/item/NavbarNavItemSearchDropdown.vue";
+import NavbarNavItemAlerts from "./nav/item/NavbarNavItemAlerts.vue";
+import NavbarNavItemMessages from "./nav/item/messages/NavbarNavItemMessages.vue";
+import NavbarNavItemUserInformation from "./nav/item/user-information/NavbarNavItemUserInformation.vue";
 
 export default {
   name: "NavbarTopbarNav",

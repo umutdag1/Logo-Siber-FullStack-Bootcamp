@@ -5,8 +5,8 @@
       <div id="content">
         <TheNavbar />
         <TheContent />
-	<TheFooter />
       </div>
+      <TheFooter />
     </div>
   </div>
 </template>

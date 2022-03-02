@@ -1,14 +1,18 @@
 /week1-assignment-umutdag1/.git
 /week2-assignment-umutdag1/.git
 /week3-assignment-umutdag1/.git
+/week4-assignment-umutdag1/.git
 /week1-assignment-umutdag1/.gitignore
 /week2-assignment-umutdag1/.gitignore
 /week3-assignment-umutdag1/.gitignore
+/week4-assignment-umutdag1/.gitignore
 /week1-assignment-umutdag1/node_modules
 /week2-assignment-umutdag1/node_modules
 /week3-assignment-umutdag1/node_modules
+/week4-assignment-umutdag1/node_modules
 
 # Expo
+/week3-assignment-umutdag1/.DS_Store
 /week3-assignment-umutdag1/.expo/
 /week3-assignment-umutdag1/dist/
 /week3-assignment-umutdag1/npm-debug.*
@@ -20,5 +24,19 @@
 /week3-assignment-umutdag1/*.orig.*
 /week3-assignment-umutdag1/web-build/
 
-# macOS
-/week3-assignment-umutdag1/.DS_Store
+# Vue
+/week4-assignment-umutdag1/.DS_Store
+/week4-assignment-umutdag1/dist
+/week4-assignment-umutdag1/.env.local
+/week4-assignment-umutdag1/.env.*.local
+/week4-assignment-umutdag1/npm-debug.log*
+/week4-assignment-umutdag1/yarn-debug.log*
+/week4-assignment-umutdag1/yarn-error.log*
+/week4-assignment-umutdag1/pnpm-debug.log*
+/week4-assignment-umutdag1/.idea
+/week4-assignment-umutdag1/.vscode
+/week4-assignment-umutdag1/*.suo
+/week4-assignment-umutdag1/*.ntvs*
+/week4-assignment-umutdag1/*.njsproj
+/week4-assignment-umutdag1/*.sln
+/week4-assignment-umutdag1/*.sw?

@@ -12,7 +12,7 @@
       <div class="dropdown-list-image mr-3">
         <img
           class="rounded-circle"
-          :src="`${BASE_URL}/assets/img/undraw_profile_1.svg`"
+          src="/img/undraw_profile_1.svg"
           alt="..."
         />
         <div class="status-indicator bg-success"></div>
@@ -29,7 +29,7 @@
       <div class="dropdown-list-image mr-3">
         <img
           class="rounded-circle"
-          :src="`${BASE_URL}/assets/img/undraw_profile_2.svg`"
+          src="/img/undraw_profile_2.svg"
           alt="..."
         />
         <div class="status-indicator"></div>
@@ -46,7 +46,7 @@
       <div class="dropdown-list-image mr-3">
         <img
           class="rounded-circle"
-          :src="`${BASE_URL}/assets/img/undraw_profile_3.svg`"
+          src="/img/undraw_profile_3.svg"
           alt="..."
         />
         <div class="status-indicator bg-warning"></div>
@@ -85,11 +85,6 @@
 <script>
 export default {
   name: "NavbarNavItemMessagesDropdown",
-  data() {
-    return {
-      BASE_URL : "./"
-    };
-  }
 };
 </script>
 

@@ -14,7 +14,7 @@
       >
       <img
         class="img-profile rounded-circle"
-        :src="`${BASE_URL}/assets/img/undraw_profile.svg`"
+        src="/img/undraw_profile.svg"
       />
     </a>
     <!-- Dropdown - User Information -->
@@ -27,11 +27,6 @@ import NavbarNavItemUserInformationDropdown from "./NavbarNavItemUserInformation
 
 export default {
   name: "NavbarNavItemUserInformation",
-  data() {
-    return {
-      BASE_URL: "./",
-    };
-  },
   components: {
     NavbarNavItemUserInformationDropdown,
   },

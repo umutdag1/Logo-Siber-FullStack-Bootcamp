@@ -15,7 +15,7 @@
 import TheSidebar from "./components/master/TheSidebar.vue";
 import TheNavbar from "./components/master/TheNavbar.vue";
 import TheContent from "./components/master/TheContent.vue";
-import TheContent from "./components/master/TheFooter.vue";
+import TheFooter from "./components/master/TheFooter.vue";
 
 export default {
   name: "App",

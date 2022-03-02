@@ -1,37 +1,40 @@
 <template>
   <ul class="navbar-nav ml-auto">
     <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-    <NavbarNavItemSearchDropdown/>
+    <NavbarNavItemSearchDropdown />
 
     <!-- Nav Item - Alerts -->
-    <NavbarNavItemAlerts/>
+    <NavbarNavItemAlerts />
 
     <!-- Nav Item - Messages -->
-    <NavbarNavItemMessages/>
+    <NavbarNavItemMessages />
 
-    <NavbarDivider/>
+    <NavbarNavDivider />
 
     <!-- Nav Item - User Information -->
-    <NavbarNavItemUserInformation/>
+    <NavbarNavItemUserInformation />
   </ul>
 </template>
 
 <script>
+/* Out Order */
+import NavbarNavDivider from "./NavbarNavDivider.vue";
+
+/* In Order */
 import NavbarNavItemSearchDropdown from "./NavbarNavItemSearchDropdown.vue";
 import NavbarNavItemAlerts from "./NavbarNavItemAlerts.vue";
 import NavbarNavItemMessages from "./NavbarNavItemMessages.vue";
-import NavbarDivider from "./NavbarDivider.vue";
 import NavbarNavItemUserInformation from "./NavbarNavItemUserInformation.vue";
 
 export default {
-    name: "NavbarTopbarNav",
-    components: {
+  name: "NavbarTopbarNav",
+  components: {
+    NavbarNavDivider,
     NavbarNavItemSearchDropdown,
     NavbarNavItemAlerts,
     NavbarNavItemMessages,
-    NavbarDivider,
-    NavbarNavItemUserInformation
-}
+    NavbarNavItemUserInformation,
+  },
 };
 </script>
 

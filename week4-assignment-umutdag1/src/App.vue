@@ -3,8 +3,8 @@
     <TheSidebar />
     <div id="content-wrapper" class="d-flex flex-column">
       <div id="content">
-        <TheNavbar/>
-        <!-- <ContentVue/> -->
+        <TheNavbar />
+        <TheContent />
       </div>
     </div>
   </div>
@@ -13,14 +13,15 @@
 <script>
 import TheSidebar from "./components/TheSidebar.vue";
 import TheNavbar from "./components/TheNavbar.vue";
-//import ContentVue from "./components/master/ContentVue.vue";
+import TheContent from "./components/TheContent.vue";
 
 export default {
   name: "App",
   components: {
     TheSidebar,
-    TheNavbar
-},
+    TheNavbar,
+    TheContent
+  },
 };
 </script>
 

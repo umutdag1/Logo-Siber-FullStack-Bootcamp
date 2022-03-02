@@ -7,8 +7,7 @@
     <SidebarBrand />
 
     <!-- Divider -->
-    <SidebarDivider />
-    <!-- <hr class="sidebar-divider my-0" /> -->
+    <SidebarDivider :divider="divider[0]" />
 
     <!-- Nav Item - Dashboard -->
     <SidebarDashboard />
@@ -17,7 +16,7 @@
     <SidebarDivider />
 
     <!-- Heading -->
-    <SidebarHeading />
+    <SidebarHeading :heading="heading[0]" />
 
     <!-- Nav Item - Pages Collapse Menu -->
     <SidebarItemCollapsePagesMenu />
@@ -29,7 +28,7 @@
     <SidebarDivider />
 
     <!-- Heading -->
-    <SidebarHeading />
+    <SidebarHeading :heading="heading[1]"/>
     <!-- <div class="sidebar-heading">Addons</div> -->
 
     <!-- Nav Item - Pages Collapse Menu -->
@@ -86,10 +85,10 @@
 </template>
 
 <script>
-/* OutOrder */
+/* Out Order */
 import SidebarDivider from "./SidebarDivider.vue";
 
-/* InOrder */
+/* In Order */
 import SidebarBrand from "./SidebarBrand.vue";
 import SidebarDashboard from "./SidebarDashboard.vue";
 import SidebarHeading from "./SidebarHeading.vue";
@@ -102,6 +101,23 @@ import SidebarMessage from "./SidebarMessage.vue";
 
 export default {
   name: "TheSidebar",
+  data() {
+    return {
+      divider: [
+        {
+          class: "my-0",
+        },
+      ],
+      heading: [
+        {
+          textContent: "Interface",
+        },
+        {
+          textContent: "Addons",
+        },
+      ],
+    };
+  },
   components: {
     SidebarDivider,
     SidebarBrand,

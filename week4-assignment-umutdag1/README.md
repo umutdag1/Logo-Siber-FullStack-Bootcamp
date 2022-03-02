@@ -31,4 +31,4 @@ npm run serve
 ```
 
 ## License
-[MIT](https://github.com/171-Logo-Siber-FullStack-Bootcamp/week4-assignment-umutdag1/blob/main/LICENSE)
+[MIT](https://github.com/umutdag1/logo-siber-fullstack-bootcamp-homeworks/blob/main/week4-assignment-umutdag1/LICENSE)
